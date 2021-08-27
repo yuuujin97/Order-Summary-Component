@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+  /* Color */
+  --blue-pale-color: hsl(225, 100%, 94%);
+  --blue-very-pale-color: hsl(225, 100%, 98%);
+  --blue-desaturated-color: hsl(224, 23%, 55%);
+  --blue-bright-color: hsl(245, 75%, 52%);
+  --blue-dark-color: hsl(223, 47%, 23%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  background-color: var(--blue-pale-color);
+}
+
+button {
+  border-style: none;
+  cursor: pointer;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.oreder__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 320px;
+  border-radius: 15px;
+  box-shadow: 0 10px 35px rgba(1, 2, 75, 0.05), 0 10px 20px rgba(5, 33, 190, 0.274);
+}
+
+.card__img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card__title {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-weight: 900;
+  font-size: 23px;
+  color: var(--blue-dark-color);
+}
+
+.card__content {
+  margin: 0;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--blue-desaturated-color);
+}
+
+.order__summary {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+  width: 85%;
+  border-radius: 10px;
+  font-size: 13px;
+  background-color: var(--blue-very-pale-color);
+}
+
+.order__summary {
+  padding: 10px 0;
+}
+
+.component__title {
+  font-weight: 900;
+  color: var(--blue-dark-color);
+}
+
+.component__content {
+  margin: 0;
+  padding-top: 5px;
+  color: var(--blue-desaturated-color);
+}
+
+.order_change {
+  font-weight: 700;
+  color: var(--blue-bright-color);
+}
+
+.button__payment {
+  width: 85%;
+  padding: 15px 0;
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+  border-radius: 10px;
+  background-color: var(--blue-bright-color);
+  box-shadow: 0 10px 35px rgba(12, 1, 75, 0.05), 0 10px 20px rgba(33, 5, 190, 0.274);
+}
+
+.button__cancel {
+  width: 85%;
+  margin: 25px 0;
+  color: var(--blue-desaturated-color);
+  font-weight: 700;
+  background-color: transparent;
+}
