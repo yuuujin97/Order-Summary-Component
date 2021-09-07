@@ -1,4 +1,4 @@
-# Frontend Mentor : Order-Summary-Component
+# Frontend Mentor : Order Summary Component
 
 ⭐완성된 Challenges : https://yuuujin97.github.io/Order-Summary-Component/
 
