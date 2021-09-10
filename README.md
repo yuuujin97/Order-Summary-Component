@@ -17,6 +17,7 @@ font size, padding , margin 등은 스타일에 맞게 정의 해야합니다.
 ### 구현된 기능
 
 - 반응형 웹 디자인 추가
+- 마우스 hover 상태 추가
 
 ### Built with
 

@@ -67,6 +67,7 @@ button {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 10px 0;
   margin: 20px 0;
   width: 85%;
   border-radius: 10px;
@@ -74,8 +75,17 @@ button {
   background-color: var(--blue-very-pale-color);
 }
 
-.order__summary {
-  padding: 10px 0;
+.order__summary > div {
+  display: flex;
+  align-items: center;
+}
+
+.order__icon {
+  width: 40px;
+}
+
+.order__component {
+  padding-left: 10px;
 }
 
 .component__title {
@@ -94,6 +104,11 @@ button {
   color: var(--blue-bright-color);
 }
 
+.order_change:hover {
+  text-decoration: none;
+  color: rgba(56, 41, 224, 0.7);
+}
+
 .button__payment {
   width: 85%;
   padding: 15px 0;
@@ -105,6 +120,10 @@ button {
   box-shadow: 0 10px 35px rgba(12, 1, 75, 0.05), 0 10px 20px rgba(33, 5, 190, 0.274);
 }
 
+.button__payment:hover {
+  background-color: rgba(56, 41, 224, 0.7);
+}
+
 .button__cancel {
   width: 85%;
   margin: 25px 0;
@@ -113,9 +132,12 @@ button {
   background-color: transparent;
 }
 
+.button__cancel:hover {
+  color: var(--blue-dark-color);
+}
+
 @media screen and (max-width: 768px) {
   body {
-    background: url(./images/pattern-background-mobile.svg) no-repeat top/100%
-      var(--blue-pale-color);
+    background: url(./images/pattern-background-mobile.svg) no-repeat top/100% var(--blue-pale-color);
   }
 }
